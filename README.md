@@ -45,8 +45,8 @@ Create an application with 3 key components:
 * Developed a frontend?
 * Created a database?
 * Developed a RESTful API?
-* Called a RESTful API from a frontend application?
-* Integrated a third-party API data into a frontend?
+* Integrated a RESTful API into a frontend application?
+* Integrated a third-party API data into a frontend application?
 * Deployed an application to the cloud?
 
 These points will be the crux of this project for you.
