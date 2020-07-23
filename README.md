@@ -17,7 +17,7 @@ When signifigant damage occurs to an automobile that is insured by The Hartford,
 
 Our goal this semester will be to create an application that provides an optimized (and responsive) user experience to our policyholders and enable The Hartford to collect all the required information for a car insurance claim.
 
-#### This is what we refer to as our "Claims" department and/or process.
+*This is what we refer to as our "Claims" department and/or process.*
 
 ## Project Description
 
