@@ -5,14 +5,17 @@
 2. [Backend](#backend)
 3. [Database](#database)
 4. [Amazon Web Services](#amazon-web-services)
-5. [Google Geocode API](#google-geocode-api)
+5. [Google Geocoding API](#google-geocoding-api)
 
 ## Frontend
 
 ## Backend
+* [REST API Tutorial](https://restfulapi.net/)
 
 ## Database
 
 ## Amazon Web Services
+* [AWS Free Tier](https://aws.amazon.com/free/)
 
-## Google Geocode API
+## Google Geocoding API
+* [Get Started | Geocoding API | Google Developers](https://developers.google.com/maps/documentation/geocoding/start)
