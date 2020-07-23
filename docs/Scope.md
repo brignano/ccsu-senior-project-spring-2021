@@ -47,7 +47,6 @@
 - As a result, your backend API should respond to the UI with the list of claims for that policy number in your database
 
 ## Sprint 4 - Innovation Sprint
-1. Innovation sprint
 > Great work, you have successfully created a frontend that can both read and write to a database by using a backend and even communicated with another third-party API (Google Maps API). So what's next? You tell us.  
 
 #### Food for thought,
