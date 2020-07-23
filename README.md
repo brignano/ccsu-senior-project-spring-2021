@@ -41,7 +41,7 @@ Create an application with 3 key components:
 
 > For helpful links and technical documentation please refer to [References.md](References.md)
 
-How many people have:
+#### How many people have:
 * Developed a frontend?
 * Created a database?
 * Developed a RESTful API?
