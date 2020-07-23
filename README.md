@@ -31,6 +31,7 @@ How many people have:
 * Created a database?
 * Integrated a frontend with a backend?
 * Integrated a third-party API?
+* Deployed an application to the cloud (AWS, Azure, Google Cloud, etc.)?
 
 These points will be your crux of this project.
 
