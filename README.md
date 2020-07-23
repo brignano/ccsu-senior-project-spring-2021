@@ -56,7 +56,7 @@ These points will be the crux of this project for you.
 * [AWS Free Tier](https://aws.amazon.com/free) can be leveraged by students for free cloud infrastructure.
 
 ## Sponsor-Provided Hardware And Software
-* No hardware or software will be provided by The Hartford.
+* No hardware or software will be provided by The Hartford with the exception of the HIG UX KIT (for vendors).
 * The team is expected to leverage open source software that is available to students for learning.
 
 ## Sponsor And Project Specific Deliverables
