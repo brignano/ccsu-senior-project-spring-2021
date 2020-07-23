@@ -5,7 +5,7 @@
 2. [Project Description](#project-description)
 3. [Project Scope](#project-scope)
 4. [Project Challenges](#project-challenges)
-5. [Constraints & Assumptions](#constraints-assumptions)
+5. [Constraints & Assumptions](#constraints--assumptions)
 6. [Sponsor-Provided Hardware And Software](#sponsor-provided-hardware-and-software)
 7. [Sponsor And Project Specific Deliverables](#sponsor-and-project-specific-deliverables)
 8. [Proprietary Information](#proprietary-information)
