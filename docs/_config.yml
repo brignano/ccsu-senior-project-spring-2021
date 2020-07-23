@@ -1,0 +1,32 @@
+# General Jekyll Config
+name: CCSU Senior Project (Fall 2020)
+title: CCSU Senior Project (Fall 2020)
+description: Collection of topics related to The Hartford sponsored CCSU Senior Project for Fall 2020 semester.
+url: https://github.thehartford.com/ab87906/ccsu-senior-project-fall-2020
+lsi: false
+
+author: Anthony Brignano
+email: anthony.brignano@thehartford.com
+
+# If you want to link only specific pages in your header/aside, uncomment 
+# this and add the path to the pages in order as they should show up 
+header_pages: 
+ - README.md
+ - Scope.md
+ - References.md
+ 
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "swe-default"
+
+# Build settings
+remote_theme: thehartford/minima
+
+# Plugins
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
