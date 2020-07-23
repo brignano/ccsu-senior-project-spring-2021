@@ -21,7 +21,7 @@ When signifigant damage occurs to an automobile that is insured by The Hartford,
 Our goal this semester will be to create an application that provides an optimized (and responsive) user experience to our policyholders and enable The Hartford to collect all the required information for a car insurance claim.
 
 ## Project Scope
-_For a more detailed technical overview please refer to [Scope.md](Scope.md)_
+> For a more detailed technical overview please refer to [Scope.md](Scope.md)
 
 Create an application with 3 key components:
 1. Frontend
@@ -39,7 +39,7 @@ Create an application with 3 key components:
 
 ## Project Challenges
 
-_For helpful links and technical documentation please refer to [References.md](References.md)_
+> For helpful links and technical documentation please refer to [References.md](References.md)
 
 How many people have:
 * Created a database?
