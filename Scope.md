@@ -22,18 +22,18 @@
 - As a result of this GET request, you should return the addresses coordinates using Google Geocoding API (https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
 
 ## v3 (Sprint 3 - Add Searching)
-	1. Make a GET request from the UI screen to your API endpoint (**/getCoordinates**) ```onBlur()``` of the address input field
+1. Make a GET request from the UI screen to your API endpoint (**/getCoordinates**) ```onBlur()``` of the address input field
 - This should append the Address to the endpoint as a GET request parameter (i.e. http://localhost:8080/getCoordinates?address=CWC8%2BR9%20Mountain%20View%20CA%20USA)
 - As a result, your backend API should respond to the UI with the coordinates of this address that it got from Google Geocode API
-	2. Add a read-only UI field that displays the coordinates once they are returned by your API but is disabled from direct user input
-	3. Add API endpoint - **/getClaims** - to your backend that accepts a GET request
+2. Add a read-only UI field that displays the coordinates once they are returned by your API but is disabled from direct user input
+3. Add API endpoint - **/getClaims** - to your backend that accepts a GET request
 - The parameter of this GET request should be a Policy Number
 - As a result of this GET request, you should return all of the claims in your database for that Policy Number
-	4. Add another responsive UI screen. This should contain,
+4. Add another responsive UI screen. This should contain,
 - A way to input the required data:
   - Policy Number
 - A search button
-	5. Make a GET request from the new UI screen to your API endpoint (**/getClaims**) ```onSubmit()``` of the search button
+5. Make a GET request from the new UI screen to your API endpoint (**/getClaims**) ```onSubmit()``` of the search button
 - This should append the Policy Number to the endpoint as a GET request parameter (i.e. http://localhost:8080/getClaims?policyNumber=123456)
 - As a result, your backend API should respond to the UI with the list of claims for that policy number in your database
 
