@@ -33,7 +33,7 @@ How many people have:
 * Integrated a frontend with a backend?
 * Integrated a third-party API?
 
-These points will be your crux of this project.
+These points will be the crux of this project for you.
 
 ## Constraints & Assumptions
 
