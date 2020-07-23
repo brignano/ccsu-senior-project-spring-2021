@@ -26,7 +26,10 @@ _For a more detailed technical overview see [Scope.md](Scope.md)_
 Create an application with 3 key components:
 1. Frontend
     - Collect required claim data
-        - 
+        - Policy Number
+        - Location (Address)
+        - Category of Claim (see iii.org for the 6 categories)
+        - Description of Claim
 2. Backend
     - READ from database
     - WRITE to database
