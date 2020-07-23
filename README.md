@@ -26,12 +26,12 @@ _For a more detailed technical overview see [Scope.md](Scope.md)_
 
 ## Project Challenges
 How many people have:
+* Created a database?
 * Developed a frontend?
 * Developed a backend?
-* Created a database?
+* Deployed an application to the cloud?
 * Integrated a frontend with a backend?
 * Integrated a third-party API?
-* Deployed an application to the cloud (AWS, Azure, Google Cloud, etc.)?
 
 These points will be your crux of this project.
 
