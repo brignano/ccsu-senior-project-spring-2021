@@ -22,4 +22,4 @@
 * [AWS Free Tier](https://aws.amazon.com/free/)
 
 ## Google Geocoding API
-* [Get Started | Geocoding API | Google Developers](https://developers.google.com/maps/documentation/geocoding/start)
+* [Get Started - Geocoding API - Google Developers](https://developers.google.com/maps/documentation/geocoding/start)
