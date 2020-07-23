@@ -50,6 +50,7 @@ These points will be the crux of this project for you.
 
 ## Constraints & Assumptions
 * Students will only be able to leverage open source/free tools and software.
+* [AWS Free Tier](https://aws.amazon.com/free) can be leveraged by students for free cloud infrastructure.
 
 ## Sponsor-Provided Hardware And Software
 * No hardware or software will be provided by The Hartford.
