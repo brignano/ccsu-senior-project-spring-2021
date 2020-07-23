@@ -52,4 +52,5 @@
 #### Food for thought,
 - Add ability to attach an additional document (i.e. image) to the claim (and store in database)
 - Add another GET parameter to **/getClaims** API endpoint that enables claims to be returned by category (i.e. http://localhost:8080/getClaims?category=Collision)
+- Implement HIG UX KIT (see [References.md#frontend](References.md#frontend))
 - To be continued…
