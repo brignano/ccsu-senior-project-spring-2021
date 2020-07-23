@@ -1,14 +1,14 @@
 # Project Scope
 
 ### Table of Contents
-1. [Sprint 1 - Setup Foundation (v1)](#sprint-1---setup-foundation-v1)
-2. [Sprint 2 - Enhance Capabilities (v2)](#sprint-2---enhance-capabilities-v2)
-3. [Sprint 3 - Add Searching (v3)](#sprint-3---add-searching-v3)
-4. [Sprint 4 - Innovation Sprint (v4)](#sprint-4---innovation-sprint-v4)
+1. [Sprint 1 - Setup Foundation](#sprint-1---setup-foundation)
+2. [Sprint 2 - Enhance Capabilities](#sprint-2---enhance-capabilities)
+3. [Sprint 3 - Add Searching](#sprint-3---add-searching)
+4. [Sprint 4 - Innovation Sprint](#sprint-4---innovation-sprint)
 
 > For an architectural overview please refer to the [High Level Design](https://github.thehartford.com/ab87906/ccsu-senior-project-fall-2020/wiki/High-Level-Design)
 
-## Sprint 1 - Setup Foundation (v1)
+## Sprint 1 - Setup Foundation
 1. Develop a responsive UI screen. This should contain,
 - A way to input the required data:
   - Policy Number
@@ -21,7 +21,7 @@
 - The body of this POST request will contain the above 4 data points
 - As the result of this POST request, the 4 data points contained in the request body should be stored in a database
 
-## Sprint 2 - Enhance Capabilities (v2)
+## Sprint 2 - Enhance Capabilities
 1. Make a POST request from the UI screen to your API endpoint (**/addClaim**) ```onSubmit()``` of the submit button
 - This should send all the data entered by the user (assuming all required fields were filled) in the POST request to your backend API
 - As a result, this data should get stored in your database by the backend API
@@ -30,7 +30,7 @@
 >(CWC8+R9 Mountain View, CA, USA is CWC8%2BR9%20Mountain%20View%20CA%20USA)
 - As a result of this GET request, you should return the addresses coordinates using Google Geocoding API (https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
 
-## Sprint 3 - Add Searching (v3)
+## Sprint 3 - Add Searching
 1. Make a GET request from the UI screen to your API endpoint (**/getCoordinates**) ```onBlur()``` of the address input field
 - This should append the Address to the endpoint as a GET request parameter (i.e. http://localhost:8080/getCoordinates?address=CWC8%2BR9%20Mountain%20View%20CA%20USA)
 - As a result, your backend API should respond to the UI with the coordinates of this address that it got from Google Geocode API
@@ -46,7 +46,7 @@
 - This should append the Policy Number to the endpoint as a GET request parameter (i.e. http://localhost:8080/getClaims?policyNumber=123456)
 - As a result, your backend API should respond to the UI with the list of claims for that policy number in your database
 
-## Sprint 4 - Innovation Sprint (v4)
+## Sprint 4 - Innovation Sprint
 1. Innovation sprint
 > Great work, you have successfully created a frontend that can both read and write to a database by using a backend and even communicated with another third-party API (Google Maps API). So what's next? You tell us.  
 
