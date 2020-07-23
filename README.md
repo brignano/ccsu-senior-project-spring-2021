@@ -17,6 +17,7 @@
 ## Project Scope
 _For a more detailed technical overview see [Scope.md](Scope.md)_
 
+
 ## Project Challenges
 
 ## Constraints & Assumptions
@@ -28,7 +29,7 @@ _For a more detailed technical overview see [Scope.md](Scope.md)_
 ## Sponsor And Project Specific Deliverables
 * Team will provide weekly status update with walk through on what was accomplished and the task ahead for the upcoming week.
 * Documentation (before any development can begin) on tools & software the team will use for this initiative.
-* Occasional Code walkthrough of the source code as requested by Product owner.
+* Occasional Code walkthrough of the source code as requested by The Hartford team.
 * Final Presentation document at the end of the Project with a walk through with our senior leadership team.
 
 ## Proprietary Information
