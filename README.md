@@ -1,6 +1,6 @@
 # CCSU Senior Project (Fall 2020)
 
-## Table of Contents
+### Table of Contents
 1. [Background Information](#background-information)
 2. [Project Description](#project-description)
 3. [Project Scope](#project-scope)
