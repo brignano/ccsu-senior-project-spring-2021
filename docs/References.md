@@ -19,11 +19,13 @@
     * [Live Demo](https://petstore.swagger.io/?_ga=2.63073577.784100647.1595516818-583713306.1595387673&_gac=1.160939343.1595387674.Cj0KCQjwpNr4BRDYARIsAADIx9wM3y2tKqZUI1z7In7a_x11KE7jT90qqQCaFrVR5YDx1tCaLmyK_PMaAk_oEALw_wcB)
     
 ## Database
+* [Databases on AWS](https://aws.amazon.com/products/databases/)
 
 ## Amazon Web Services
 * [AWS Free Tier](https://aws.amazon.com/free/)
 * [Static Web Hosting - AWS Amplify Console - Amazon Web Services](https://aws.amazon.com/amplify/console/)
 * [Deploying a REST API in Amazon API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-deploy-api.html)
+* [Databases on AWS](https://aws.amazon.com/products/databases/)
 
 ## Google Geocoding API
 * [Get Started - Geocoding API - Google Developers](https://developers.google.com/maps/documentation/geocoding/start)
