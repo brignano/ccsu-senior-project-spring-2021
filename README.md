@@ -29,8 +29,8 @@ How many people have:
 * Developed a frontend?
 * Developed a backend?
 * Created a database?
-* Integrate a frontend with a backend
-* Integrate a third-party API
+* Integrated a frontend with a backend?
+* Integrated a third-party API?
 
 These points will be your crux of this project.
 
