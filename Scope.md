@@ -33,7 +33,7 @@
 - A way to input the required data:
   - Policy Number
 - A search button
-	5. Make a GET request from the new UI screen to your API endpoint (**/getClaims**) onSubmit() of the search button
+	5. Make a GET request from the new UI screen to your API endpoint (**/getClaims**) ```onSubmit()``` of the search button
 - This should append the Policy Number to the endpoint as a GET request parameter (i.e. http://localhost:8080/getClaims?policyNumber=123456)
 - As a result, your backend API should respond to the UI with the list of claims for that policy number in your database
 
