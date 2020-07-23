@@ -6,7 +6,7 @@
 3. [Sprint 3 - Add Searching - v3](#v3-sprint-3---add-searching)
 4. [Sprint 4 - Innovation Sprint - v4](#v4-sprint-4---innovation-sprint)
 
-> For a high level design overview please refer to [High Level Design](https://github.thehartford.com/ab87906/ccsu-senior-project-fall-2020/wiki/High-Level-Design)
+> For a architectural overview please refer to the [High Level Design](https://github.thehartford.com/ab87906/ccsu-senior-project-fall-2020/wiki/High-Level-Design)
 
 ## v1 (Sprint 1 - Setup Foundation)
 1. Develop a responsive UI screen. This should contain,
