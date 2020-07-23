@@ -42,12 +42,12 @@ Create an application with 3 key components:
 > For helpful links and technical documentation please refer to [References.md](References.md)
 
 How many people have:
-* Created a database?
 * Developed a frontend?
-* Developed a backend?
+* Created a database?
+* Developed a RESTful API?
+* Called a RESTful API from a frontend application?
+* Integrated a third-party API data into a frontend?
 * Deployed an application to the cloud?
-* Integrated a frontend with a backend?
-* Integrated a third-party API?
 
 These points will be the crux of this project for you.
 
