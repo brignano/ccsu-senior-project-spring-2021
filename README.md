@@ -23,6 +23,16 @@ Our goal this semester will be to create an application that provides an optimiz
 ## Project Scope
 _For a more detailed technical overview see [Scope.md](Scope.md)_
 
+Create an application with 3 key components:
+1. Frontend
+    - Collect required claim data
+        - 
+2. Backend
+    - READ from database
+    - WRITE to database
+    - Integrate a third-party API call (Google Geocode API)
+3. Database
+    - Store claims data
 
 ## Project Challenges
 How many people have:
