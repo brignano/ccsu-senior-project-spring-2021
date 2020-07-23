@@ -10,7 +10,7 @@
 ## Frontend
 * [HIG UX KIT (for vendors)](https://qawww.thehartford.com/sites/frontendstage/uxkit/demo/dist/vendors.html)
 * [mce_hig_ux_kit#using-in-your-code](https://github.thehartford.com/HIG/mce_hig_ux_kit#using-in-your-code)
-* [Static Web Hosting - AWS Amplify](https://aws.amazon.com/amplify/console/)
+* [Static Web Hosting - AWS Amplify Console - Amazon Web Services](https://aws.amazon.com/amplify/console/)
 
 ## Backend
 * [REST API Tutorial](https://restfulapi.net/)
@@ -22,6 +22,8 @@
 
 ## Amazon Web Services
 * [AWS Free Tier](https://aws.amazon.com/free/)
+* [Static Web Hosting - AWS Amplify Console - Amazon Web Services](https://aws.amazon.com/amplify/console/)
+* [Deploying a REST API in Amazon API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-deploy-api.html)
 
 ## Google Geocoding API
 * [Get Started - Geocoding API - Google Developers](https://developers.google.com/maps/documentation/geocoding/start)
