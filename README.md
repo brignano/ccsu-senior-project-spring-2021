@@ -11,6 +11,11 @@
 8. [Proprietary Information](#proprietary-information)
 
 ## Background Information
+When signifigant damage occurs to an automobile that is insured by The Hartford, our policyholder looks to us to compensate them for these damages. This process requires The Hartford to obtain a lot of information related to that incident in order to process the insurance claim.
+
+> A car insurance claim is a report you file after a collision with another vehicle or another circumstance resulting in damage to your vehicle. A claim usually results in a payment from your auto insurance company, which kicks in after you meet your deductible. _[[source](https://www.thezebra.com/auto-insurance/accidents/car-insurance-claims/#:~:text=When%20to%20File%20a%20Car%20Insurance%20Claim&text=A%20car%20insurance%20claim%20is,after%20you%20meet%20your%20deductible.)]_
+
+Our goal this semester will be to create an application that provides an optimized (and responsive) user experience to our policyholders and enable The Hartford to collect all the required information for a car insurance claim.
 
 ## Project Description
 
