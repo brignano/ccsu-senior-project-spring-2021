@@ -47,6 +47,7 @@
 ## v4 (Sprint 4 - Innovation Sprint)
 1. Innovation sprint
 > Great work, you have successfully created a frontend that can both read and write to a database by using a backend and even communicated with another third-party API (Google Maps API). So what's next? You tell us.  
+
 #### Food for thought,
 - Add ability to attach an additional document (i.e. image) to the claim (and store in database)
 - Add another GET parameter to **/getClaims** API endpoint that enables claims to be returned by category (i.e. http://localhost:8080/getClaims?category=Collision)
