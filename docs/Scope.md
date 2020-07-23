@@ -1,10 +1,10 @@
 # Project Scope
 
 ### Table of Contents
-1. [v1 (Sprint 1 - Setup Foundation)](#v1-sprint-1---setup-foundation)
-2. [v2 (Sprint 2 - Enhance Capabilities)](#v2-sprint-2---enhance-capabilities)
-3. [v3 (Sprint 3 - Add Searching)](#v3-sprint-3---add-searching)
-4. [v4 (Sprint 4 - Innovation Sprint)](#v4-sprint-4---innovation-sprint)
+1. [Sprint 1 - Setup Foundation - v1](#v1-sprint-1---setup-foundation)
+2. [Sprint 2 - Enhance Capabilities - v2](#v2-sprint-2---enhance-capabilities)
+3. [Sprint 3 - Add Searching - v3](#v3-sprint-3---add-searching)
+4. [Sprint 4 - Innovation Sprint - v4](#v4-sprint-4---innovation-sprint)
 
 ## v1 (Sprint 1 - Setup Foundation)
 1. Develop a responsive UI screen. This should contain,
