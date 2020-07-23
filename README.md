@@ -24,17 +24,17 @@ Our goal this semester will be to create an application that provides an optimiz
 > For a more detailed technical overview please refer to [Scope.md](Scope.md)
 
 Create an application with 3 key components:
-1. Frontend
+1. Frontend (UI)
     - Collect required claim data
         - Policy Number
         - Location (Address)
         - Category of Claim (see iii.org for the 6 categories)
         - Description of Claim
-2. Backend
+2. Backend (API)
     - READ from database
     - WRITE to database
     - Integrate a third-party API call (Google Geocode API)
-3. Database
+3. Database (DB)
     - Store claims data
 
 ## Project Challenges
