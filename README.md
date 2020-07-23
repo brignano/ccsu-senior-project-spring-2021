@@ -1,4 +1,4 @@
-# ccsu-senior-project-2021
+# CCSU Senior Project 2021
 
 ## Table of Contents
 1. [Background Information](#background-information)
