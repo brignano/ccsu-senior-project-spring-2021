@@ -28,3 +28,5 @@ _For a more detailed technical overview see [Scope.md](Scope.md)_
 ## Sponsor And Project Specific Deliverables
 
 ## Proprietary Information
+* Any documentation describing systems shared by The Hartford is considered proprietary. It should never be copied or shared with anyone outside of the project team.
+* Any internal URL’s that are shared for this project should never be shared outside of the project team.
