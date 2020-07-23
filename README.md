@@ -26,6 +26,10 @@ _For a more detailed technical overview see [Scope.md](Scope.md)_
 * The team is expected to leverage open source software that is available to students for learning.
 
 ## Sponsor And Project Specific Deliverables
+* Team will provide weekly status update with walk through on what was accomplished and the task ahead for the upcoming week.
+* Documentation (before any development can begin) on tools & software the team will use for this initiative.
+* Occasional Code walkthrough of the source code as requested by Product owner.
+* Final Presentation document at the end of the Project with a walk through with our senior leadership team.
 
 ## Proprietary Information
 * Any documentation describing systems shared by The Hartford is considered proprietary. It should never be copied or shared with anyone outside of the project team.
