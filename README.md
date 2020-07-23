@@ -49,6 +49,7 @@ How many people have:
 These points will be the crux of this project for you.
 
 ## Constraints & Assumptions
+* Students will only be able to leverage open source/free tools and software.
 
 ## Sponsor-Provided Hardware And Software
 * No hardware or software will be provided by The Hartford.
