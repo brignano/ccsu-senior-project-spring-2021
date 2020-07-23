@@ -48,6 +48,8 @@ How many people have:
 
 These points will be the crux of this project for you.
 
+_For helpful links and technical documentation please refer to [References.md](References.md)_
+
 ## Constraints & Assumptions
 * Students will only be able to leverage open source/free tools and software.
 * [AWS Free Tier](https://aws.amazon.com/free) can be leveraged by students for free cloud infrastructure.
