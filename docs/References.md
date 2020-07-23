@@ -8,6 +8,7 @@
 5. [Google Geocoding API](#google-geocoding-api)
 
 ## Frontend
+* [HIG UX KIT](https://qawww.thehartford.com/sites/frontendstage/uxkit/demo/dist/vendors.html) _(for vendors)_
 
 ## Backend
 * [REST API Tutorial](https://restfulapi.net/)
