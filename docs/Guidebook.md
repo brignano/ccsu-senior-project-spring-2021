@@ -57,6 +57,8 @@
 
 ## Infrastructure
 
+> For a guidebook on cloud please refer to the [Guidebook-Cloud.md](Guidebook-Cloud.md)
+
 ##### Where will you host these components?
 - [ ] localhost **(discouraged)**
 - [ ] DigitalOcean
@@ -65,5 +67,3 @@
 - [ ] Amazon Web Services **(recommended)**
 - [ ] Azure Cloud
 - [ ] Google Cloud
-
-> For a guidebook on cloud please refer to the [Guidebook-Cloud.md](Guidebook-Cloud.md)
