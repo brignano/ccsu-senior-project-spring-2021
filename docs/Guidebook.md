@@ -20,7 +20,7 @@
 ## Frontend
 
 ##### What technology and version are you using?
-- [ ] HTML5
+- [ ] HTML
 - [ ] Angular
 - [ ] ReactJS
 - [ ] VueJS
@@ -65,3 +65,5 @@
 - [ ] Amazon Web Services **(recommended)**
 - [ ] Azure Cloud
 - [ ] Google Cloud
+
+> For a guidebook on cloud please refer to the [Guidebook-Cloud.md](Guidebook-Cloud.md)
