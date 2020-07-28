@@ -30,5 +30,5 @@
 
 ##### What technology are you using?
 - [ ] MySQL
-- NoSQL
+- [ ] NoSQL
     - [ ] MongoDB
