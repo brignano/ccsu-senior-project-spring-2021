@@ -1,12 +1,16 @@
 # Guidebook
 
+> This is intended to serve as a guide for the high level design of your application and its components.
+
 ### Table of Contents
-1. Frontend
-    - What technology will you use (ex. HTML5, Angular, ReactJS, VueJS, etc.)?
-    - 
+1. [Frontend](#frontend)
+2. [Backend](#backend)
+3. [Database](#database)
 
-2. Backend
+---
 
+## Frontend
 
-3. Database
+## Backend
 
+## Database
