@@ -40,9 +40,9 @@
 ## Version Control System
 
 ##### What version control system are you using?
-- [ ] Local storage (strongly discouraged)
+- [ ] Local storage **(not recommended)**
 - [ ] SubVersion
-- [ ] GitHub (recommended)
+- [ ] GitHub **(recommended)**
 - [ ] GitLab
 - [ ] BitBucket
 - [ ] TFS
@@ -50,10 +50,10 @@
 ## Infrastructure
 
 ##### Where will you host these components?
-- [ ] localhost (discouraged)
+- [ ] localhost **(discouraged)**
 - [ ] DigitalOcean
 - [ ] GitHub Developer Environment
 - [ ] GitLab
-- [ ] Amazon Web Services (recommended)
+- [ ] Amazon Web Services **(recommended)**
 - [ ] Azure Cloud
 - [ ] Google Cloud
