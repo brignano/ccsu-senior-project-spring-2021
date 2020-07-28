@@ -10,8 +10,7 @@
 3. [Database](#database)  
 
 #### Extra
-4. [Version Control System](#version-control-system)
-5. [Infrastructure](#infrastructure)
+4. [Infrastructure](#infrastructure)
 
 # Core
 
@@ -25,6 +24,8 @@
 - [ ] React
 - [ ] VueJS
 
+##### Link to your frontend repository (GitHub): _____________________________
+
 ## Backend
 
 ##### What technology and version are you using?
@@ -33,6 +34,8 @@
 - [ ] Ruby (Ruby on Rails)
 - [ ] PHP (Laravel)
 - [ ] Scala (Play)
+
+##### Link to your backend repository (GitHub): _____________________________
 
 ## Database
 
@@ -45,16 +48,6 @@
 # Extra
 
 ---  
-
-## Version Control System
-
-##### What version control system are you using?
-- [ ] Local storage **(not recommended)**
-- [ ] SubVersion
-- [ ] GitHub **(recommended)**
-- [ ] GitLab
-- [ ] BitBucket
-- [ ] TFS
 
 ## Infrastructure
 
