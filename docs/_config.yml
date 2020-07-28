@@ -13,8 +13,8 @@ email: anthony.brignano@thehartford.com
 header_pages: 
  - README.md
  - Scope.md
- - References.md
  - Guidebook.md
+ - References.md
  
 # Defaults
 defaults:
