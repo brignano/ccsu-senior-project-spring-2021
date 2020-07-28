@@ -18,32 +18,32 @@
 
 ## Frontend
 
-##### What technology and version are you using?
-- [ ] HTML, CSS, JavaScript
-- [ ] Angular
-- [ ] React
-- [ ] VueJS
+##### Technology and Version: _____________________________
+- HTML, CSS, JavaScript
+- Angular
+- React
+- VueJS
 
 ##### Link to your frontend repository (GitHub): _____________________________
 
 ## Backend
 
-##### What technology and version are you using?
-- [ ] Python (Django, Flask, Pylons)
-- [ ] Java (Spring)
-- [ ] Ruby (Ruby on Rails)
-- [ ] PHP (Laravel)
-- [ ] Scala (Play)
+##### Technology and Version: _____________________________
+- Python (Django, Flask, Pylons)
+- Java (Spring)
+- Ruby (Ruby on Rails)
+- PHP (Laravel)
+- Scala (Play)
 
 ##### Link to your backend repository (GitHub): _____________________________
 
 ## Database
 
 ##### What technology and version are you using?
-- [ ] MySQL
-- [ ] NoSQL
-    - [ ] MongoDB
-    - [ ] Firebase
+- MySQL
+- NoSQL
+    - MongoDB
+    - Firebase
     
 # Extra
 
