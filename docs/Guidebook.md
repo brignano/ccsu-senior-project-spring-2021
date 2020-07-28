@@ -39,7 +39,7 @@
 
 ## Database
 
-##### What technology and version are you using?
+##### Technology and Version: _____________________________
 - MySQL
 - NoSQL
     - MongoDB
@@ -55,9 +55,9 @@
 
 ##### Where will you host these components?
 - [ ] localhost **(discouraged)**
-- [ ] DigitalOcean
+- [ ] Amazon Web Services **(recommended)**
 - [ ] GitHub Developer Environment
 - [ ] GitLab
-- [ ] Amazon Web Services **(recommended)**
+- [ ] DigitalOcean
 - [ ] Azure Cloud
 - [ ] Google Cloud
