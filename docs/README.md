@@ -51,6 +51,8 @@ Create an application with 3 key components:
 
 These points will be the crux of this project for you.
 
+> For some guidance on how to approach these challenges please refer to the [Guidebook.md](Guidebook.md)
+
 ## Constraints & Assumptions
 * Students will only be able to leverage open source/free tools and software.
 * [AWS Free Tier](https://aws.amazon.com/free) can be leveraged by students for free cloud infrastructure.
