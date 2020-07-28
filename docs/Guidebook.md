@@ -39,7 +39,14 @@
 
 ## Version Control System
 
-##### What technology and version are you using?
+##### What version control system are you using?
+- [ ] Floppy disk
+- [ ] USB Drive
+- [ ] SubVersion
+- [ ] GitHub (Recommended)
+- [ ] GitLab
+- [ ] BitBucket
+- [ ] TFS
 
 ## Infrastructure
 
@@ -48,6 +55,6 @@
 - [ ] DigitalOcean
 - [ ] GitHub Developer Environment
 - [ ] GitLab
-- [ ] Amazon Web Services (AWS)
+- [ ] Amazon Web Services (Recommended)
 - [ ] Azure Cloud
 - [ ] Google Cloud
