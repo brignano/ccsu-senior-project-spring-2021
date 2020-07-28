@@ -14,7 +14,8 @@
 5. [Infrastructure](#infrastructure)
 
 ---  
-  
+
+# Core
 
 ## Frontend
 
@@ -39,6 +40,10 @@
 - [ ] NoSQL
     - [ ] MongoDB
     - [ ] Firebase
+    
+---  
+
+# Extra
 
 ## Version Control System
 
