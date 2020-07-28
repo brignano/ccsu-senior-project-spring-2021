@@ -20,18 +20,19 @@
 ## Frontend
 
 ##### What technology and version are you using?
-- [ ] HTML
+- [ ] HTML, CSS, JavaScript
 - [ ] Angular
-- [ ] ReactJS
+- [ ] React
 - [ ] VueJS
 
 ## Backend
 
 ##### What technology and version are you using?
-- [ ] Python
-- [ ] Java
-- [ ] C#
-
+- [ ] Python (Django, Flask, Pylons)
+- [ ] Java (Spring)
+- [ ] Ruby (Ruby on Rails)
+- [ ] PHP (Laravel)
+- [ ] Scala (Play)
 
 ## Database
 
