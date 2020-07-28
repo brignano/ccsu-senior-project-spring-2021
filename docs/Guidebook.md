@@ -13,9 +13,9 @@
 4. [Version Control System](#version-control-system)
 5. [Infrastructure](#infrastructure)
 
----  
-
 # Core
+
+---  
 
 ## Frontend
 
@@ -41,9 +41,9 @@
     - [ ] MongoDB
     - [ ] Firebase
     
----  
-
 # Extra
+
+---  
 
 ## Version Control System
 
