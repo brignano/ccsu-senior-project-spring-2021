@@ -20,7 +20,7 @@
 
 ## Backend
 
-##### What technology are you using?
+##### What technology and version are you using?
 - [ ] Python
 - [ ] Java
 - [ ] C#
@@ -28,7 +28,7 @@
 
 ## Database
 
-##### What technology are you using?
+##### What technology and version are you using?
 - [ ] MySQL
 - [ ] NoSQL
     - [ ] MongoDB
