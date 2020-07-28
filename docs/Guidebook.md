@@ -7,11 +7,17 @@
 2. [Backend](#backend)
 3. [Database](#database)
 
----
-
+---  
+  
 
 ## Frontend
 
+##### What technology are you using?
+
 ## Backend
 
+##### What technology are you using?
+
 ## Database
+
+##### What technology are you using?
