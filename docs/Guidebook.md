@@ -3,16 +3,10 @@
 > This is intended to serve as a guide for the high level design of your application and its components.
 
 ### Table of Contents  
-
-#### Core
 1. [Frontend](#frontend)
 2. [Backend](#backend)
 3. [Database](#database)  
-
-#### Extra
 4. [Infrastructure](#infrastructure)
-
-# Core
 
 ---  
 
@@ -44,10 +38,6 @@
 - NoSQL
     - MongoDB
     - Firebase
-    
-# Extra
-
----  
 
 ## Infrastructure
 
