@@ -44,10 +44,10 @@
 > For a guidebook on cloud please refer to the [Guidebook-Cloud.md](Guidebook-Cloud.md)
 
 ##### Where will you host these components?
-- [ ] localhost **(discouraged)**
-- [ ] Amazon Web Services **(recommended)**
-- [ ] GitHub Developer Environment
-- [ ] GitLab
-- [ ] DigitalOcean
-- [ ] Azure Cloud
-- [ ] Google Cloud
+- localhost **(discouraged)**
+- Amazon Web Services **(recommended)**
+- GitHub Developer Environment
+- GitLab
+- DigitalOcean
+- Azure Cloud
+- Google Cloud
