@@ -41,7 +41,7 @@
 
 ## Infrastructure
 
-> For a guidebook on cloud please refer to the [Guidebook-Cloud.md](Guidebook-Cloud.md)
+> For a cloud guidebook please refer to the [Guidebook-Cloud.md](Guidebook-Cloud.md)
 
 ##### Where will you host these components?
 - localhost **(discouraged)**
