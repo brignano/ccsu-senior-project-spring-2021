@@ -25,7 +25,7 @@ defaults:
       layout: "swe-default"
 
 # Build settings
-remote_theme: thehartford/minima
+remote_theme: pmarsceill/just-the-docs
 
 # Plugins
 plugins:
