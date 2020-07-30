@@ -24,8 +24,8 @@
 
 ## GitHub
 * [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
-* [Get Up and Running - YouTube](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-) - 
-GitHub Training & Guides
+* [Get Up and Running - YouTube - 
+GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
 
 ## Amazon Web Services
 * [AWS Free Tier](https://aws.amazon.com/free/)
