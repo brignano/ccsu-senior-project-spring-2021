@@ -18,7 +18,7 @@
 - A way to input the required data:
   - Policy Number
   - Location (Address)
-  - Category of Claim (see iii.org for the 6 categories)
+  - Category of Claim (see [iii.org](https://www.iii.org/publications/insurance-handbook/insurance-basics/auto-insurance-basics) for the 6 categories)
   - Description of Claim
 - A submit button
 2. Create a backend API.
