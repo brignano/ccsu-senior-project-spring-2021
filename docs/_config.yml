@@ -12,7 +12,9 @@ email: anthony.brignano@thehartford.com
 # this and add the path to the pages in order as they should show up 
 header_pages: 
  - README.md
+ - Scope.md
  - Guidebook.md
+ - Guidebook-Cloud.md
  - References.md
  
 # Defaults
