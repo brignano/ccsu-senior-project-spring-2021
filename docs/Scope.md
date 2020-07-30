@@ -1,12 +1,15 @@
 # Project Scope
 
 ### Table of Contents
+0. [Sprint 0 - Inception Phase](#sprint-0---inception-phase)
 1. [Sprint 1 - Setup Foundation](#sprint-1---setup-foundation)
 2. [Sprint 2 - Enhance Capabilities](#sprint-2---enhance-capabilities)
 3. [Sprint 3 - Add Searching](#sprint-3---add-searching)
 4. [Sprint 4 - Innovation Sprint](#sprint-4---innovation-sprint)
 
 > For an architectural overview please refer to the [High Level Design](https://github.com/brignano/ccsu-senior-project-fall-2020/wiki/High-Level-Design)
+
+## Sprint 0 - Inception Phase
 
 ## Sprint 1 - Setup Foundation
 1. Develop a responsive UI screen. This should contain,
