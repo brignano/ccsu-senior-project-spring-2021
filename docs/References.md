@@ -9,7 +9,6 @@
 
 ## Frontend
 * [HIG UX KIT (for vendors)](https://qawww.thehartford.com/sites/frontendstage/uxkit/demo/dist/vendors.html)
-* [mce_hig_ux_kit#using-in-your-code](https://github.thehartford.com/HIG/mce_hig_ux_kit#using-in-your-code)
 * [Static Web Hosting - AWS Amplify Console - Amazon Web Services](https://aws.amazon.com/amplify/console/)
 
 ## Backend
