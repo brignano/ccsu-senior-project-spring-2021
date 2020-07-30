@@ -17,8 +17,8 @@
 1. Develop a responsive UI screen. This should contain,
 - A way to input the required data:
   - Policy Number
-  - Location (Address)
-  - Category of Claim (see [iii.org](https://www.iii.org/publications/insurance-handbook/insurance-basics/auto-insurance-basics) for the 6 categories)
+  - Location (Address where the Loss occurred)
+  - Category of Claim (see [iii.org](https://www.iii.org/publications/insurance-handbook/insurance-basics/auto-insurance-basics) for the 6 possible categories)
   - Description of Claim
 - A submit button
 2. Create a backend API.
@@ -35,13 +35,13 @@
 2. Add an API endpoint - **/getCoordinates** - to your backend that accepts a GET request
 - The parameter of this GET request should be an address  
 >(CWC8+R9 Mountain View, CA, USA is CWC8%2BR9%20Mountain%20View%20CA%20USA)
-- As a result of this GET request, you should return the addresses coordinates using Google Geocoding API (https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
+- As a result of this GET request, you should return the addresses coordinates using [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
 
 ---
 
 ## Sprint 3 - Add Searching
 1. Make a GET request from the UI screen to your API endpoint (**/getCoordinates**) ```onBlur()``` of the address input field
-- This should append the Address to the endpoint as a GET request parameter (i.e. http://localhost:8080/getCoordinates?address=CWC8%2BR9%20Mountain%20View%20CA%20USA)
+- This should append the Address to the endpoint as a GET request parameter (```http://localhost:8080/getCoordinates?address=CWC8%2BR9%20Mountain%20View%20CA%20USA```)
 - As a result, your backend API should respond to the UI with the coordinates of this address that it got from Google Geocode API
 2. Add a read-only UI field that displays the coordinates once they are returned by your API but is disabled from direct user input
 3. Add API endpoint - **/getClaims** - to your backend that accepts a GET request
@@ -52,7 +52,7 @@
   - Policy Number
 - A search button
 5. Make a GET request from the new UI screen to your API endpoint (**/getClaims**) ```onSubmit()``` of the search button
-- This should append the Policy Number to the endpoint as a GET request parameter (i.e. http://localhost:8080/getClaims?policyNumber=123456)
+- This should append the Policy Number to the endpoint as a GET request parameter (``http://localhost:8080/getClaims?policyNumber=123456```)
 - As a result, your backend API should respond to the UI with the list of claims for that policy number in your database
 
 ---
@@ -62,6 +62,7 @@
 
 #### Food for thought,
 - Add ability to attach an additional document (i.e. image) to the claim (and store in database)
-- Add another GET parameter to **/getClaims** API endpoint that enables claims to be returned by category (i.e. http://localhost:8080/getClaims?category=Collision)
+- Add another GET parameter to **/getClaims** API endpoint that enables claims to be returned by category (```http://localhost:8080/getClaims?category=Collision```)
+- Add ability to autocomplete the address as the user is typing (see [Google Maps API Places Autocomplete](https://developers.google.com/maps/documentation/javascript/places-autocomplete))
 - Implement HIG UX KIT (see [References.md#frontend](References.md#frontend))
 - To be continued…
