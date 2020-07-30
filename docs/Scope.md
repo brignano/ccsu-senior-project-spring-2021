@@ -11,6 +11,8 @@
 
 ## Sprint 0 - Inception Phase
 
+---
+
 ## Sprint 1 - Setup Foundation
 1. Develop a responsive UI screen. This should contain,
 - A way to input the required data:
@@ -24,6 +26,8 @@
 - The body of this POST request will contain the above 4 data points
 - As the result of this POST request, the 4 data points contained in the request body should be stored in a database
 
+---
+
 ## Sprint 2 - Enhance Capabilities
 1. Make a POST request from the UI screen to your API endpoint (**/addClaim**) ```onSubmit()``` of the submit button
 - This should send all the data entered by the user (assuming all required fields were filled) in the POST request to your backend API
@@ -32,6 +36,8 @@
 - The parameter of this GET request should be an address  
 >(CWC8+R9 Mountain View, CA, USA is CWC8%2BR9%20Mountain%20View%20CA%20USA)
 - As a result of this GET request, you should return the addresses coordinates using Google Geocoding API (https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
+
+---
 
 ## Sprint 3 - Add Searching
 1. Make a GET request from the UI screen to your API endpoint (**/getCoordinates**) ```onBlur()``` of the address input field
@@ -48,6 +54,8 @@
 5. Make a GET request from the new UI screen to your API endpoint (**/getClaims**) ```onSubmit()``` of the search button
 - This should append the Policy Number to the endpoint as a GET request parameter (i.e. http://localhost:8080/getClaims?policyNumber=123456)
 - As a result, your backend API should respond to the UI with the list of claims for that policy number in your database
+
+---
 
 ## Sprint 4 - Innovation Sprint
 > Great work, you have successfully created a frontend that can both read and write to a database by using a backend and even communicated with another third-party API (Google Maps API). So what's next? You tell us.  
