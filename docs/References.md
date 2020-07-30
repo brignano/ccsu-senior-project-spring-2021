@@ -4,8 +4,9 @@
 1. [Frontend](#frontend)
 2. [Backend](#backend)
 3. [Database](#database)
-4. [Amazon Web Services](#amazon-web-services)
-5. [Google Geocoding API](#google-geocoding-api)
+4. [GitHub](#github)
+5.  [Amazon Web Services](#amazon-web-services)
+6. [Google Geocoding API](#google-geocoding-api)
 
 ## Frontend
 * [HIG UX KIT (for vendors)](https://qawww.thehartford.com/sites/frontendstage/uxkit/demo/dist/vendors.html)
@@ -20,6 +21,9 @@
     
 ## Database
 * [Databases on AWS](https://aws.amazon.com/products/databases/)
+
+## GitHub
+* [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
 
 ## Amazon Web Services
 * [AWS Free Tier](https://aws.amazon.com/free/)
