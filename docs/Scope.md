@@ -8,20 +8,20 @@
 4. [Sprint 4 - Innovation Sprint](#sprint-4---innovation-sprint)
 
 > For an architectural overview please refer to the [High Level Design](https://github.com/brignano/ccsu-senior-project-fall-2020/wiki/High-Level-Design)
-
+<br/>
 
 ---
-
+<br/>
 
 ## Sprint 0 - Inception Phase  
 ### 1. Review and complete the [Guidebook.md](Guidebook.md)
 ### 2. Create a new frontend project
 ### 3. Create a new backend project
 ### 4. Complete proof of concept for database
-
+<br/>
 
 ---
-
+<br/>
 
 ## Sprint 1 - Setup Foundation
 ### 1. Add a responsive UI screen to the frontend.
@@ -60,10 +60,10 @@
     Content-Type: {}
     Content-Length: {}
     ```
-    
+<br/>
 
 ---
-
+<br/>
 
 ## Sprint 2 - Enhance Capabilities
 1. Make an API call to your new `/addClaim` endpoint from the frontend ```onSubmit()```
@@ -84,7 +84,7 @@ Add an API endpoint - **/getCoordinates** - to your backend that accepts a GET r
 <br/>
 
 ---
-
+<br/>
 
 ## Sprint 3 - Add Searching
 1. Make a GET request from the UI screen to your API endpoint (**/getCoordinates**) ```onBlur()``` of the address input field
@@ -104,7 +104,7 @@ Add an API endpoint - **/getCoordinates** - to your backend that accepts a GET r
 <br/>
 
 ---
-
+<br/>
 
 ## Sprint 4 - Innovation Sprint
 > Great work, you have successfully created a frontend that can both read and write to a database by using a backend and even communicated with another third-party API (Google Maps API). So what's next? You tell us.  
