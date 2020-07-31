@@ -36,6 +36,7 @@
       - Description of Claim
     - Submit button.  
 
+
 2. Add a new API endpoint to the backend.
 
     <h3>/addClaim</h3>
