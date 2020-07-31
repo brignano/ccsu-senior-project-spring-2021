@@ -26,7 +26,7 @@
       - Category of Claim (see [iii.org](https://www.iii.org/publications/insurance-handbook/insurance-basics/auto-insurance-basics) for the 6 possible categories)
       - Description of Claim
     - Submit button.  
-
+  
 2. Add a new API endpoint to the backend.
 
     #### /addClaim
