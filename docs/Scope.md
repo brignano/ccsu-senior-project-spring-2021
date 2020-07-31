@@ -27,14 +27,14 @@
 
 ## Sprint 1 - Setup Foundation
 1. Add a responsive UI screen to the frontend.  
-    This should contain:
+    #### This should contain:
     - Form input:
       - Policy Number
       - Location (Address where the Loss occurred)
       - Category of Claim (see [iii.org](https://www.iii.org/publications/insurance-handbook/insurance-basics/auto-insurance-basics) for the 6 possible categories)
       - Description of Claim
     - Submit button.  
-
+    
 2. Add a new API endpoint to the backend.
 
     ### /addClaim
