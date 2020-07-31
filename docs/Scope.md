@@ -28,10 +28,19 @@
       - Description of Claim
     - Submit button
 
-2. Create a backend API.
-3. Add an API endpoint - **/addClaim** - to your backend that accepts a POST request
-- The body of this POST request will contain the above 4 data points
-- As the result of this POST request, the 4 data points contained in the request body should be stored in a database
+2. Add a new API endpoint to the backend.
+
+    #### /addClaim
+
+    ```
+    POST /addClaim HTTP/1.1
+    Host: {endpoint}
+    Authorization: {auth}
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: {len}
+
+    policyNumber={PolicyNumber}&location={Location}&category={Category}&description={Description}
+    ```
 
 ---
 
