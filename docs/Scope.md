@@ -10,17 +10,24 @@
 > For an architectural overview please refer to the [High Level Design](https://github.com/brignano/ccsu-senior-project-fall-2020/wiki/High-Level-Design)
 
 ## Sprint 0 - Inception Phase
+1. Review and complete the [Guidebook.md](Guidebook.md)
+2. Create a new frontend project
+3. Create a new backend project
+4. Complete proof of concept for database
 
 ---
 
 ## Sprint 1 - Setup Foundation
-1. Develop a responsive UI screen. This should contain,
-- A way to input the required data:
+1. Add a responsive UI screen to the frontend.  
+
+This should contain:
+- Form input:
   - Policy Number
   - Location (Address where the Loss occurred)
   - Category of Claim (see [iii.org](https://www.iii.org/publications/insurance-handbook/insurance-basics/auto-insurance-basics) for the 6 possible categories)
   - Description of Claim
-- A submit button
+- Submit button
+
 2. Create a backend API.
 3. Add an API endpoint - **/addClaim** - to your backend that accepts a POST request
 - The body of this POST request will contain the above 4 data points
