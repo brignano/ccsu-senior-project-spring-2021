@@ -19,6 +19,7 @@
 2. Create a new frontend project
 3. Create a new backend project
 4. Complete proof of concept for database
+
 <br/>
 
 ---
@@ -39,6 +40,7 @@
 ### 2. Add a new API endpoint to the backend.
 
     <h3>/addClaim</h3>
+    
     > This should insert the data to your database
     
     <h4>Request</h4>
@@ -61,6 +63,7 @@
     Content-Type: {}
     Content-Length: {}
     ```
+    
 <br/>
 
 ---
@@ -82,6 +85,7 @@ Add an API endpoint - **/getCoordinates** - to your backend that accepts a GET r
 - The parameter of this GET request should be an address  
 >(CWC8+R9 Mountain View, CA, USA is CWC8%2BR9%20Mountain%20View%20CA%20USA)
 - As a result of this GET request, you should return the addresses coordinates using [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
+
 <br/>
 
 ---
@@ -102,6 +106,7 @@ Add an API endpoint - **/getCoordinates** - to your backend that accepts a GET r
 5. Make a GET request from the new UI screen to your API endpoint (**/getClaims**) ```onSubmit()``` of the search button
 - This should append the Policy Number to the endpoint as a GET request parameter (``http://localhost:8080/getClaims?policyNumber=123456```)
 - As a result, your backend API should respond to the UI with the list of claims for that policy number in your database
+
 <br/>
 
 ---
