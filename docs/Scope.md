@@ -8,6 +8,7 @@
 4. [Sprint 4 - Innovation Sprint](#sprint-4---innovation-sprint)
 
 > For an architectural overview please refer to the [High Level Design](https://github.com/brignano/ccsu-senior-project-fall-2020/wiki/High-Level-Design)
+
 <br/>
 
 ---
@@ -18,6 +19,7 @@
 2. Create a new frontend project
 3. Create a new backend project
 4. Complete proof of concept for database
+
 <br/>
 
 ---
