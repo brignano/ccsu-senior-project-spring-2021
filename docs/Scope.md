@@ -1,6 +1,6 @@
 # Project Scope
 
-### Table of Contents</h3>
+### Table of Contents
 0. [Sprint 0 - Inception Phase](#sprint-0---inception-phase)
 1. [Sprint 1 - Setup Foundation](#sprint-1---setup-foundation)
 2. [Sprint 2 - Enhance Capabilities](#sprint-2---enhance-capabilities)
