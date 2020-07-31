@@ -18,6 +18,7 @@
 
 ---
 <br/>
+
 ## Sprint 1 - Setup Foundation
 1. Add a responsive UI screen to the frontend.  
     This should contain:
@@ -46,6 +47,7 @@
 
 ---
 <br/>
+
 ## Sprint 2 - Enhance Capabilities
 1. Call `/addClaim` from the frontend ```onSubmit()``` of the Submit button
     - This should store all 
@@ -57,6 +59,7 @@
 
 ---
 <br>
+
 ## Sprint 3 - Add Searching
 1. Make a GET request from the UI screen to your API endpoint (**/getCoordinates**) ```onBlur()``` of the address input field
 - This should append the Address to the endpoint as a GET request parameter (```http://localhost:8080/getCoordinates?address=CWC8%2BR9%20Mountain%20View%20CA%20USA```)
@@ -75,6 +78,7 @@
 
 ---
 <br>
+
 ## Sprint 4 - Innovation Sprint
 > Great work, you have successfully created a frontend that can both read and write to a database by using a backend and even communicated with another third-party API (Google Maps API). So what's next? You tell us.  
 
