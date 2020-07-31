@@ -1,26 +1,24 @@
-<h1>Project Scope</h1>
+# Project Scope
 
-<h3>Table of Contents</h3>
-<ol>
-    <li>[Sprint 0 - Inception Phase](#sprint-0---inception-phase)</li>
-    <li>[Sprint 1 - Setup Foundation](#sprint-1---setup-foundation)</li>
-    <li>[Sprint 2 - Enhance Capabilities](#sprint-2---enhance-capabilities)</li>
-    <li>[Sprint 3 - Add Searching](#sprint-3---add-searching)</li>
-    <li>[Sprint 4 - Innovation Sprint](#sprint-4---innovation-sprint)</li>
+### Table of Contents</h3>
+0. [Sprint 0 - Inception Phase](#sprint-0---inception-phase)
+1. [Sprint 1 - Setup Foundation](#sprint-1---setup-foundation)
+2. [Sprint 2 - Enhance Capabilities](#sprint-2---enhance-capabilities)
+3. [Sprint 3 - Add Searching](#sprint-3---add-searching)
+4. [Sprint 4 - Innovation Sprint](#sprint-4---innovation-sprint)
 </ol>
 
 > For an architectural overview please refer to the [High Level Design](https://github.com/brignano/ccsu-senior-project-fall-2020/wiki/High-Level-Design)
 
-<h2>Sprint 0 - Inception Phase</h2>  
+## Sprint 0 - Inception Phase  
 1. Review and complete the [Guidebook.md](Guidebook.md)
 2. Create a new frontend project
 3. Create a new backend project
 4. Complete proof of concept for database
 
 ---
-<br>
-
-<h2>Sprint 1 - Setup Foundation
+<br/>
+## Sprint 1 - Setup Foundation
 1. Add a responsive UI screen to the frontend.  
     This should contain:
     - Form input:
@@ -32,9 +30,9 @@
 
 2. Add a new API endpoint to the backend.
 
-    <h3>/addClaim</h3>
+    ### /addClaim
     
-    <h4>This should insert the data to your database.</h4>
+    #### This should insert the data to your database.
 
     ```
     POST /addClaim HTTP/1.1
@@ -47,8 +45,8 @@
     ```
 
 ---
-<br>  
-<h2>Sprint 2 - Enhance Capabilities</h2>
+<br/>
+## Sprint 2 - Enhance Capabilities
 1. Call `/addClaim` from the frontend ```onSubmit()``` of the Submit button
     - This should store all 
     - As a result, this data should get stored in your database by the backend API
@@ -59,7 +57,7 @@
 
 ---
 <br>
-<h2>Sprint 3 - Add Searching</h2>
+## Sprint 3 - Add Searching
 1. Make a GET request from the UI screen to your API endpoint (**/getCoordinates**) ```onBlur()``` of the address input field
 - This should append the Address to the endpoint as a GET request parameter (```http://localhost:8080/getCoordinates?address=CWC8%2BR9%20Mountain%20View%20CA%20USA```)
 - As a result, your backend API should respond to the UI with the coordinates of this address that it got from Google Geocode API
@@ -77,10 +75,10 @@
 
 ---
 <br>
-<h2>Sprint 4 - Innovation Sprint</h2>
+## Sprint 4 - Innovation Sprint
 > Great work, you have successfully created a frontend that can both read and write to a database by using a backend and even communicated with another third-party API (Google Maps API). So what's next? You tell us.  
 
-<h4>Food for thought,</h4>
+#### ood for thought,
 - Add ability to attach an additional document (i.e. image) to the claim (and store in database)
 - Add another GET parameter to **/getClaims** API endpoint that enables claims to be returned by category (```http://localhost:8080/getClaims?category=Collision```)
 - Add ability to autocomplete the address as the user is typing (see [Google Maps API Places Autocomplete](https://developers.google.com/maps/documentation/javascript/places-autocomplete))
