@@ -14,17 +14,17 @@
 
 
 ## Sprint 0 - Inception Phase  
-1. Review and complete the [Guidebook.md](Guidebook.md)
-2. Create a new frontend project
-3. Create a new backend project
-4. Complete proof of concept for database
+### 1. Review and complete the [Guidebook.md](Guidebook.md)
+### 2. Create a new frontend project
+### 3. Create a new backend project
+### 4. Complete proof of concept for database
 
 
 ---
 
 
 ## Sprint 1 - Setup Foundation
-1. Add a responsive UI screen to the frontend.
+### 1. Add a responsive UI screen to the frontend.
 
     <h4>This should contain:</h4>
     - Form input:
@@ -35,7 +35,7 @@
     - Submit button.  
 
 
-2. Add a new API endpoint to the backend.
+### 2. Add a new API endpoint to the backend.
 
     <h3>/addClaim</h3>
     > This should insert the data to your database
