@@ -16,7 +16,7 @@
 4. Complete proof of concept for database
 
 ---
-<br>
+<br>  
 ## Sprint 1 - Setup Foundation
 1. Add a responsive UI screen to the frontend.  
     This should contain:
@@ -44,7 +44,7 @@
     ```
 
 ---
-<br>
+<br>  
 ## Sprint 2 - Enhance Capabilities
 1. Call `/addClaim` from the frontend ```onSubmit()``` of the Submit button
     - This should store all 
