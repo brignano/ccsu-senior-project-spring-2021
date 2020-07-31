@@ -28,43 +28,43 @@
 ## Sprint 1 - Setup Foundation
 ### 1. Add a responsive UI screen to the frontend.
 
-    <h4>This should contain:</h4>
-    - Form input:
-      - Policy Number
-      - Location (Address where the Loss occurred)
-      - Category of Claim (see [iii.org](https://www.iii.org/publications/insurance-handbook/insurance-basics/auto-insurance-basics) for the 6 possible categories)
-      - Description of Claim
-    - Submit button.  
+<h4>This should contain:</h4>
+
+- Form input:
+    - Policy Number
+    - Location (Address where the Loss occurred)
+    - Category of Claim (see [iii.org](https://www.iii.org/publications/insurance-handbook/insurance-basics/auto-insurance-basics) for the 6 possible categories)
+    - Description of Claim
+- Submit button.  
 
 
 ### 2. Add a new API endpoint to the backend.
 
+<h3>/addClaim</h3>    
+    
+> This should insert the data to your database
+    
+<h4>Request</h4>
 
-    <h3>/addClaim</h3>    
-    
-    
-    > This should insert the data to your database
-    
-    <h4>Request</h4>
 
-    ```
-    POST /addClaim HTTP/1.1
-    Host: {endpoint}
-    Authorization: {auth}
-    Content-Type: application/x-www-form-urlencoded
-    Content-Length: {len}
+```
+POST /addClaim HTTP/1.1
+Host: {endpoint}
+Authorization: {auth}
+Content-Type: application/x-www-form-urlencoded
+Content-Length: {len}
 
-    policyNumber={PolicyNumber}&location={Location}&category={Category}&description={Description}
-    ```
+policyNumber={PolicyNumber}&location={Location}&category={Category}&description={Description}
+```
     
-    <h4>Response</h4>
+<h4>Response</h4>
     
-    ```
-    HTTP/1.1 200 OK
-    Date: {}
-    Content-Type: {}
-    Content-Length: {}
-    ```
+```
+HTTP/1.1 200 OK
+Date: {}
+Content-Type: {}
+Content-Length: {}
+```
     
 <br/>
 
