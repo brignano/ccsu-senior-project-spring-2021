@@ -9,7 +9,7 @@
 
 > For an architectural overview please refer to the [High Level Design](https://github.com/brignano/ccsu-senior-project-fall-2020/wiki/High-Level-Design)
 
-<h2>Sprint 0 - Inception Phase</h2>
+<h2>Sprint 0 - Inception Phase</h2>  
 1. Review and complete the [Guidebook.md](Guidebook.md)
 2. Create a new frontend project
 3. Create a new backend project
