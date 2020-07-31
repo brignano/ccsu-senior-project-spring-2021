@@ -38,11 +38,10 @@
     
 2. Add a new API endpoint to the backend.
 
-    ### /addClaim
-    
+    <h3>/addClaim</h3>
     > This should insert the data to your database
     
-    #### Request
+    <h4Request</h4>
 
     ```
     POST /addClaim HTTP/1.1
@@ -54,7 +53,7 @@
     policyNumber={PolicyNumber}&location={Location}&category={Category}&description={Description}
     ```
     
-    #### Response
+    <h4>Response</h4>
     
     ```
     HTTP/1.1 200 OK
