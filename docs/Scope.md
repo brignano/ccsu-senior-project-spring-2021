@@ -27,6 +27,7 @@
 
 ## Sprint 1 - Setup Foundation
 1. Add a responsive UI screen to the frontend.
+
     #### This should contain:
     - Form input:
       - Policy Number
