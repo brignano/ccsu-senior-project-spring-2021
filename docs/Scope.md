@@ -31,6 +31,8 @@
 2. Add a new API endpoint to the backend.
 
     #### /addClaim
+    
+    ##### This should insert the data to your database.
 
     ```
     POST /addClaim HTTP/1.1
@@ -41,13 +43,13 @@
 
     policyNumber={PolicyNumber}&location={Location}&category={Category}&description={Description}
     ```
-
+    
 ---
 
 ## Sprint 2 - Enhance Capabilities
-1. Make a POST request from the UI screen to your API endpoint (**/addClaim**) ```onSubmit()``` of the submit button
-- This should send all the data entered by the user (assuming all required fields were filled) in the POST request to your backend API
-- As a result, this data should get stored in your database by the backend API
+1. Call `/addClaim` from the frontend ```onSubmit()``` of the Submit button
+    - This should store all 
+    - As a result, this data should get stored in your database by the backend API
 2. Add an API endpoint - **/getCoordinates** - to your backend that accepts a GET request
 - The parameter of this GET request should be an address  
 >(CWC8+R9 Mountain View, CA, USA is CWC8%2BR9%20Mountain%20View%20CA%20USA)
