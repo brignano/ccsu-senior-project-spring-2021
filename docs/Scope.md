@@ -15,10 +15,10 @@
 <br/>
 
 ## Sprint 0 - Inception Phase  
-    <h3>1. Review and complete the [Guidebook.md](Guidebook.md)</h3>
-    <h3>2. Create a new frontend project</h3>
-    <h3>3. Create a new backend project</h3>
-    <h3>4. Complete proof of concept for database</h3>
+1. Review and complete the [Guidebook.md](Guidebook.md)
+2. Create a new frontend project
+3. Create a new backend project
+4. Complete proof of concept for database
 <br/>
 
 ---
