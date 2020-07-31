@@ -44,7 +44,7 @@
     ```
 
 ---
-
+<br>
 ## Sprint 2 - Enhance Capabilities
 1. Call `/addClaim` from the frontend ```onSubmit()``` of the Submit button
     - This should store all 
@@ -55,7 +55,7 @@
 - As a result of this GET request, you should return the addresses coordinates using [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
 
 ---
-
+<br>
 ## Sprint 3 - Add Searching
 1. Make a GET request from the UI screen to your API endpoint (**/getCoordinates**) ```onBlur()``` of the address input field
 - This should append the Address to the endpoint as a GET request parameter (```http://localhost:8080/getCoordinates?address=CWC8%2BR9%20Mountain%20View%20CA%20USA```)
@@ -73,7 +73,7 @@
 - As a result, your backend API should respond to the UI with the list of claims for that policy number in your database
 
 ---
-
+<br>
 ## Sprint 4 - Innovation Sprint
 > Great work, you have successfully created a frontend that can both read and write to a database by using a backend and even communicated with another third-party API (Google Maps API). So what's next? You tell us.  
 
