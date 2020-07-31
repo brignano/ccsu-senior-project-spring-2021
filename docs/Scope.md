@@ -41,7 +41,7 @@
     <h3>/addClaim</h3>
     > This should insert the data to your database
     
-    <h4Request</h4>
+    <h4>Request</h4>
 
     ```
     POST /addClaim HTTP/1.1
