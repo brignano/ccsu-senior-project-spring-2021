@@ -29,7 +29,6 @@
 1. Add a responsive UI screen to the frontend.
 
     <h4>This should contain:</h4>
-    
     - Form input:
       - Policy Number
       - Location (Address where the Loss occurred)
@@ -40,6 +39,7 @@
 2. Add a new API endpoint to the backend.
 
     ### /addClaim
+    
     > This should insert the data to your database
     
     #### Request
