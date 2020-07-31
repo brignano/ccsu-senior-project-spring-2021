@@ -16,7 +16,8 @@
 4. Complete proof of concept for database
 
 ---
-<br>  
+<br>
+
 <h2>Sprint 1 - Setup Foundation
 1. Add a responsive UI screen to the frontend.  
     This should contain:
