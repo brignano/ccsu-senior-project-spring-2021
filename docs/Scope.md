@@ -38,8 +38,9 @@
 2. Add a new API endpoint to the backend.
 
     ### /addClaim
+    > This should insert the data to your database
     
-    #### This should insert the data to your database.
+    #### Request
 
     ```
     POST /addClaim HTTP/1.1
@@ -50,16 +51,34 @@
 
     policyNumber={PolicyNumber}&location={Location}&category={Category}&description={Description}
     ```
+    
+    #### Response
+    
+    ```
+    HTTP/1.1 200 OK
+    Date: {}
+    Content-Type: {}
+    Content-Length: {}
+    ```
+    
 <br/>
 
 ---
 <br/>
 
 ## Sprint 2 - Enhance Capabilities
-1. Call `/addClaim` from the frontend ```onSubmit()``` of the Submit button
-    - This should store all 
-    - As a result, this data should get stored in your database by the backend API
-2. Add an API endpoint - **/getCoordinates** - to your backend that accepts a GET request
+1. Make an API call to your new `/addClaim` endpoint from the frontend ```onSubmit()```
+2. Add a new API endpoint to the backend.
+    ```
+    GET /getCoordinates HTTP/1.1
+    Host: {endpoint}
+    Authorization: {auth}
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: {len}
+
+    policyNumber={PolicyNumber}&location={Location}&category={Category}&description={Description}
+    ```
+Add an API endpoint - **/getCoordinates** - to your backend that accepts a GET request
 - The parameter of this GET request should be an address  
 >(CWC8+R9 Mountain View, CA, USA is CWC8%2BR9%20Mountain%20View%20CA%20USA)
 - As a result of this GET request, you should return the addresses coordinates using [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
