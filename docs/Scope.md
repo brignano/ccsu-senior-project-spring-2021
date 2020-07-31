@@ -39,7 +39,9 @@
 
 ### 2. Add a new API endpoint to the backend.
 
-    <h3>/addClaim</h3>
+
+    <h3>/addClaim</h3>    
+    
     
     > This should insert the data to your database
     
