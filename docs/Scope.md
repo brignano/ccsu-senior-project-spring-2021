@@ -14,9 +14,9 @@
 2. Create a new frontend project
 3. Create a new backend project
 4. Complete proof of concept for database
-  
----  
-  
+
+---
+<br>
 ## Sprint 1 - Setup Foundation
 1. Add a responsive UI screen to the frontend.  
     This should contain:
@@ -26,7 +26,7 @@
       - Category of Claim (see [iii.org](https://www.iii.org/publications/insurance-handbook/insurance-basics/auto-insurance-basics) for the 6 possible categories)
       - Description of Claim
     - Submit button.  
-  
+
 2. Add a new API endpoint to the backend.
 
     <h4>/addClaim</h4>
@@ -42,9 +42,9 @@
 
     policyNumber={PolicyNumber}&location={Location}&category={Category}&description={Description}
     ```
-   
+
 ---
-  
+
 ## Sprint 2 - Enhance Capabilities
 1. Call `/addClaim` from the frontend ```onSubmit()``` of the Submit button
     - This should store all 
