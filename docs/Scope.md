@@ -6,15 +6,19 @@
 2. [Sprint 2 - Enhance Capabilities](#sprint-2---enhance-capabilities)
 3. [Sprint 3 - Add Searching](#sprint-3---add-searching)
 4. [Sprint 4 - Innovation Sprint](#sprint-4---innovation-sprint)
-</ol>
 
 > For an architectural overview please refer to the [High Level Design](https://github.com/brignano/ccsu-senior-project-fall-2020/wiki/High-Level-Design)
+<br/>
+
+---
+<br/>
 
 ## Sprint 0 - Inception Phase  
 1. Review and complete the [Guidebook.md](Guidebook.md)
 2. Create a new frontend project
 3. Create a new backend project
 4. Complete proof of concept for database
+<br/>
 
 ---
 <br/>
@@ -44,6 +48,7 @@
 
     policyNumber={PolicyNumber}&location={Location}&category={Category}&description={Description}
     ```
+<br/>
 
 ---
 <br/>
@@ -56,6 +61,7 @@
 - The parameter of this GET request should be an address  
 >(CWC8+R9 Mountain View, CA, USA is CWC8%2BR9%20Mountain%20View%20CA%20USA)
 - As a result of this GET request, you should return the addresses coordinates using [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
+<br/>
 
 ---
 <br>
@@ -75,6 +81,7 @@
 5. Make a GET request from the new UI screen to your API endpoint (**/getClaims**) ```onSubmit()``` of the search button
 - This should append the Policy Number to the endpoint as a GET request parameter (``http://localhost:8080/getClaims?policyNumber=123456```)
 - As a result, your backend API should respond to the UI with the list of claims for that policy number in your database
+<br/>
 
 ---
 <br>
