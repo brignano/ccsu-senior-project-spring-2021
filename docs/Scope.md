@@ -27,7 +27,9 @@
 
 ## Sprint 1 - Setup Foundation
 1. Add a responsive UI screen to the frontend.
+
     <h4>This should contain:</h4>
+    
     - Form input:
       - Policy Number
       - Location (Address where the Loss occurred)
