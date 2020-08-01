@@ -76,6 +76,7 @@ Content-Length: {}
 
 ## Sprint 2 - Enhance Capabilities
 ### 1. Call to your new API endpoint `/addClaim` from the frontend ```onSubmit()``` of the Submit button
+
 ```
 http://{backend-ip}:{backend-port}/addClaim
 ```
