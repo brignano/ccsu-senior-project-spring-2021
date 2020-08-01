@@ -30,12 +30,12 @@
 
 <h4>This should contain:</h4>
 
-- Form input:
-    - Policy Number
-    - Location (Address where the Loss occurred)
-    - Category of Claim (see [iii.org](https://www.iii.org/publications/insurance-handbook/insurance-basics/auto-insurance-basics) for the 6 possible categories)
-    - Description of Claim
-- Submit button.  
+- Form input: _(all required fields)_
+    - Policy number
+    - Address (where the Loss occurred)
+    - Category of claim (see [iii.org](https://www.iii.org/publications/insurance-handbook/insurance-basics/auto-insurance-basics) for the 6 possible categories)
+    - Description of claim
+- Submit button  
 
 
 ### 2. Add a new API endpoint to the backend.
@@ -77,7 +77,7 @@ Content-Length: {}
 ## Sprint 2 - Enhance Capabilities
 ### 1. Call to your new API endpoint `/addClaim` from the frontend ```onSubmit()``` of the Submit button
 
-```
+```http
 http://{backend-ip}:{backend-port}/addClaim
 ```
 
@@ -99,8 +99,6 @@ Content-Length: {len}
     location={location}
 ```
 
-**Note:** `CWC8+R9 Mountain View, CA, USA` _becomes_ `CWC8%2BR9%20Mountain%20View%20CA%20USA`
-
 <h4>Response</h4>
 
 ```http
@@ -116,20 +114,61 @@ Content-Length: {}
 <br/>
 
 ## Sprint 3 - Add Searching
-1. Make a GET request from the UI screen to your API endpoint (**/getCoordinates**) ```onBlur()``` of the address input field
-- This should append the Address to the endpoint as a GET request parameter (```http://localhost:8080/getCoordinates?address=CWC8%2BR9%20Mountain%20View%20CA%20USA```)
-- As a result, your backend API should respond to the UI with the coordinates of this address that it got from Google Geocode API
-2. Add a read-only UI field that displays the coordinates once they are returned by your API but is disabled from direct user input
-3. Add API endpoint - **/getClaims** - to your backend that accepts a GET request
-- The parameter of this GET request should be a Policy Number
-- As a result of this GET request, you should return all of the claims in your database for that Policy Number
-4. Add another responsive UI screen. This should contain,
-- A way to input the required data:
-  - Policy Number
-- A search button
-5. Make a GET request from the new UI screen to your API endpoint (**/getClaims**) ```onSubmit()``` of the search button
-- This should append the Policy Number to the endpoint as a GET request parameter (``http://localhost:8080/getClaims?policyNumber=123456```)
-- As a result, your backend API should respond to the UI with the list of claims for that policy number in your database
+### 1. Call to your new API `/getCoordinates` from the frontend `onBlur()` of the Address input field
+
+```http
+http://{backend-ip}:{backend-port}/getCoordinates?address=24%20Sussex%20Drive%20Ottawa%20ON
+```
+
+### 2. Add a new _read-only_ field to the frontend screen that displays the coordinates returned from the API call above
+### 3. Add a new API endpoint to the backend.
+
+<h3>/getClaims</h3>
+
+> This should return all of the claims based on the search criteria
+
+<h4>Request</h4>
+
+```http
+GET /getClaims HTTP/1.1
+Host: {endpoint}
+Authorization: {auth}
+Content-Type: application/x-www-form-urlencoded
+Content-Length: {len}
+
+    policyNumber?={policyNumber}
+    &category?={Category}
+```
+
+<h4>Response</h4>
+
+```http
+HTTP/1.1 200 OK
+Date: {}
+Content-Type: {}
+Content-Length: {}
+```
+
+<br/>
+
+
+### 4. Add another responsive UI screen. This should contain,
+
+<h4>This should contain:</h4>
+
+- Form input: _(all optional fields)_
+    - Policy number
+    - Category
+- Search button
+
+### 5. Call to your new API `/getClaims` - from your new frontend screen - `onSubmit()` of the Search button field
+
+```http
+http://{backend-ip}:{backend-port}/getClaims
+http://{backend-ip}:{backend-port}/getClaims?policyNumber=123456
+http://{backend-ip}:{backend-port}/getClaims?category=Collision
+http://{backend-ip}:{backend-port}/getClaims?policyNumber=123456&category=Collision
+```
 
 <br/>
 
