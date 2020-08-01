@@ -99,7 +99,7 @@ Content-Length: {len}
     location={location}
 ```
 
-    **Note:** `CWC8+R9 Mountain View, CA, USA` _becomes_ `CWC8%2BR9%20Mountain%20View%20CA%20USA`
+**Note:** `CWC8+R9 Mountain View, CA, USA` _becomes_ `CWC8%2BR9%20Mountain%20View%20CA%20USA`
 
 <h4>Response</h4>
 
