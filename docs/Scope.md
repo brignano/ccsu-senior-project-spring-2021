@@ -125,7 +125,7 @@ http://{backend-ip}:{backend-port}/getCoordinates?address=24%20Sussex%20Drive%20
 
 <h3>/getClaims</h3>
 
-> This should return all of the claims based on the search criteria
+> This should return all of the claims filtered by the (optional) search criteria
 
 <h4>Request</h4>
 
@@ -176,11 +176,10 @@ http://{backend-ip}:{backend-port}/getClaims?policyNumber=123456&category=Collis
 <br/>
 
 ## Sprint 4 - Innovation Sprint
-> Great work, you have successfully created a frontend that can both read and write to a database by using a backend and even communicated with another third-party API (Google Maps API). So what's next? You tell us.  
+> Great work! You have successfully created a full stack application and even ingested data from another third-party (Google Maps) API. So what's next? You tell us.  
 
 #### Food for thought,
 - Add ability to attach an additional document (i.e. image) to the claim (and store in database)
-- Add another GET parameter to **/getClaims** API endpoint that enables claims to be returned by category (```http://localhost:8080/getClaims?category=Collision```)
 - Add ability to autocomplete the address as the user is typing (see [Google Maps API Places Autocomplete](https://developers.google.com/maps/documentation/javascript/places-autocomplete))
 - Implement HIG UX KIT (see [References.md#frontend](References.md#frontend))
 - To be continued…
