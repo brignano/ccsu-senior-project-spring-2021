@@ -47,7 +47,7 @@
 <h4>Request</h4>
 
 
-```
+```http
 POST /addClaim HTTP/1.1
 Host: {endpoint}
 Authorization: {auth}
@@ -59,7 +59,7 @@ policyNumber={PolicyNumber}&location={Location}&category={Category}&description=
     
 <h4>Response</h4>
     
-```
+```http
 HTTP/1.1 200 OK
 Date: {}
 Content-Type: {}
@@ -72,20 +72,42 @@ Content-Length: {}
 <br/>
 
 ## Sprint 2 - Enhance Capabilities
-1. Make an API call to your new `/addClaim` endpoint from the frontend ```onSubmit()```
-2. Add a new API endpoint to the backend.
-    ```
-    GET /getCoordinates HTTP/1.1
-    Host: {endpoint}
-    Authorization: {auth}
-    Content-Type: application/x-www-form-urlencoded
-    Content-Length: {len}
+1. Call to your new API endpoint `/addClaim` from the frontend ```onSubmit()``` of the Submit button
 
-    policyNumber={PolicyNumber}&location={Location}&category={Category}&description={Description}
-    ```
-Add an API endpoint - **/getCoordinates** - to your backend that accepts a GET request
-- The parameter of this GET request should be an address  
->(CWC8+R9 Mountain View, CA, USA is CWC8%2BR9%20Mountain%20View%20CA%20USA)
+```
+http://{backend-ip}:{backend-port}/addClaim
+```
+
+2. Add a new API endpoint to the backend.
+
+<h3>/getCoordinates</h3> 
+
+<h4>Request</h4>
+
+```http
+GET /getCoordinates HTTP/1.1
+Host: {endpoint}
+Authorization: {auth}
+Content-Type: application/x-www-form-urlencoded
+Content-Length: {len}
+
+location={location}
+```
+
+> CWC8+R9 Mountain View, CA, USA 
+becomes 
+> CWC8%2BR9%20Mountain%20View%20CA%20USA
+
+<h4>Response</h4>
+
+```http
+HTTP/1.1 200 OK
+Date: {}
+Content-Type: {}
+Content-Length: {}
+```
+
+
 - As a result of this GET request, you should return the addresses coordinates using [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
 
 <br/>
