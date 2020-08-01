@@ -54,7 +54,10 @@ Authorization: {auth}
 Content-Type: application/x-www-form-urlencoded
 Content-Length: {len}
 
-policyNumber={PolicyNumber}&location={Location}&category={Category}&description={Description}
+    policyNumber={PolicyNumber}
+    &location={Location}
+    &category={Category}
+    &description={Description}
 ```
     
 <h4>Response</h4>
@@ -93,10 +96,10 @@ Authorization: {auth}
 Content-Type: application/x-www-form-urlencoded
 Content-Length: {len}
 
-location={location}
+    location={location}
 ```
 
-`CWC8+R9 Mountain View, CA, USA` becomes `CWC8%2BR9%20Mountain%20View%20CA%20USA`
+    **Note:** `CWC8+R9 Mountain View, CA, USA` _becomes_ `CWC8%2BR9%20Mountain%20View%20CA%20USA`
 
 <h4>Response</h4>
 
