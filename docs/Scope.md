@@ -77,7 +77,7 @@ Content-Length: {}
 ## Sprint 2 - Enhance Capabilities
 ### 1. Call to your new API endpoint `/addClaim` from the frontend ```onSubmit()``` of the Submit button
 
-```http
+```
 http://{backend-ip}:{backend-port}/addClaim
 ```
 
@@ -116,7 +116,7 @@ Content-Length: {}
 ## Sprint 3 - Add Searching
 ### 1. Call to your new API `/getCoordinates` from the frontend `onBlur()` of the Address input field
 
-```http
+```
 http://{backend-ip}:{backend-port}/getCoordinates?address=24%20Sussex%20Drive%20Ottawa%20ON
 ```
 
@@ -163,7 +163,7 @@ Content-Length: {}
 
 ### 5. Call to your new API `/getClaims` - from your new frontend screen - `onSubmit()` of the Search button field
 
-```http
+```
 http://{backend-ip}:{backend-port}/getClaims
 http://{backend-ip}:{backend-port}/getClaims?policyNumber=123456
 http://{backend-ip}:{backend-port}/getClaims?category=Collision
