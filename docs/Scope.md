@@ -82,6 +82,8 @@ http://{backend-ip}:{backend-port}/addClaim
 
 <h3>/getCoordinates</h3> 
 
+> This should return the location coordinates using [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
+
 <h4>Request</h4>
 
 ```http
@@ -94,9 +96,7 @@ Content-Length: {len}
 location={location}
 ```
 
-> CWC8+R9 Mountain View, CA, USA 
-becomes 
-> CWC8%2BR9%20Mountain%20View%20CA%20USA
+`CWC8+R9 Mountain View, CA, USA` becomes `CWC8%2BR9%20Mountain%20View%20CA%20USA`
 
 <h4>Response</h4>
 
@@ -106,9 +106,6 @@ Date: {}
 Content-Type: {}
 Content-Length: {}
 ```
-
-
-- As a result of this GET request, you should return the addresses coordinates using [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview#GeocodingResponses)
 
 <br/>
 
