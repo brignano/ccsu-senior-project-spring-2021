@@ -1,4 +1,4 @@
-# CCSU Senior Project
+# Project Overview
 
 ### Table of Contents
 1. [Background Information](#background-information)
