@@ -176,9 +176,10 @@ http://{backend-ip}:{backend-port}/getClaims?policyNumber=123456&category=Collis
 <br/>
 
 ## Sprint 4 - Innovation Sprint
-> Great work! You have successfully created a full stack application and even ingested data from another third-party (Google Maps) API. So what's next? You tell us.  
+> Great work! You have successfully created a full-stack application and even ingested data from another third-party (Google Maps) API. So what's next? You tell us.  
 
 #### Food for thought,
+- Host your application on [Amazon Web Services](https://aws.amazon.com/) using [AWS Free Tier](https://aws.amazon.com/free/)
 - Add ability to attach an additional document (i.e. image) to the claim (and store in database)
 - Add ability to autocomplete the address as the user is typing (see [Google Maps API Places Autocomplete](https://developers.google.com/maps/documentation/javascript/places-autocomplete))
 - Implement HIG UX KIT (see [References.md#frontend](References.md#frontend))
