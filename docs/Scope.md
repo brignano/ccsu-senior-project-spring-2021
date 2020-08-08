@@ -15,7 +15,7 @@
 <br/>
 
 ## Inception Phase  
-1. Review and complete the [Guidebook.md](Guidebook.md)
+1. Review and complete the [Specifications.md](Specifications.md)
 2. Create a new frontend project
 3. Create a new backend project
 4. Complete proof of concept for database

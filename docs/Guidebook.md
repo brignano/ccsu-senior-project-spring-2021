@@ -11,29 +11,20 @@
 ---  
 
 ## Frontend
-
-##### Technology and Version: _____________________________
 - HTML, CSS, JavaScript
 - Angular
 - React
 - VueJS
 
-##### Link to your frontend repository (GitHub): _____________________________
-
 ## Backend
-
-##### Technology and Version: _____________________________
 - Python (Django, Flask, Pylons)
 - Java (Spring)
 - Ruby (Ruby on Rails)
 - PHP (Laravel)
 - Scala (Play)
 
-##### Link to your backend repository (GitHub): _____________________________
 
 ## Database
-
-##### Technology and Version: _____________________________
 - MySQL
 - NoSQL
     - MongoDB
