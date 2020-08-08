@@ -5,7 +5,7 @@
 2. [Backend](#backend)
 3. [Database](#database)
 4. [GitHub](#github)
-5.  [Amazon Web Services](#amazon-web-services)
+5. [Amazon Web Services](#amazon-web-services)
 6. [Google Geocoding API](#google-geocoding-api)
 
 ## Frontend
