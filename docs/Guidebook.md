@@ -1,8 +1,7 @@
 # Guidebook
+#### * Please _use whatever technology you want, even if you don't find it listed below_.
 
 > This is intended to serve strictly as a reference for different technologies that you **might** use to build your application. 
-
-#### Please _use whatever technology you want, even if you don't find it listed below_.
 
 ### Table of Contents  
 1. [Frontend](#frontend)
