@@ -12,16 +12,16 @@
 
 ## Frontend
 - HTML, CSS, JavaScript
-- Angular
-- React
-- VueJS
+- [Angular](https://angular.io/start)
+- [React](https://reactjs.org/docs/create-a-new-react-app.html)
+- [VueJS](https://cli.vuejs.org/guide/creating-a-project.html)
 
 ## Backend
-- Python (Django, Flask, Pylons)
-- Java (Spring)
-- Ruby (Ruby on Rails)
-- PHP (Laravel)
-- Scala (Play)
+- Python ([Django](https://docs.djangoproject.com/en/3.0/intro/tutorial01/), [Flask](https://docs.djangoproject.com/en/3.0/intro/tutorial01/))
+- Java ([Spring](https://start.spring.io/))
+- Ruby ([Ruby on Rails](https://guides.rubyonrails.org/getting_started.html))
+- PHP ([Laravel](https://laravel.com/docs/4.2/quick))
+- Scala ([Play](https://www.playframework.com/getting-started))
 
 
 ## Database
