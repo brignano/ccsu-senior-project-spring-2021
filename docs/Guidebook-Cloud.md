@@ -13,6 +13,7 @@
 - [Static Web Hosting - AWS Amplify](https://aws.amazon.com/amplify/console/)
 
 ## Backend
+- [AWS Lambda](https://aws.amazon.com/lambda/getting-started/)
 
 ## Database
 - [Datases on AWS](https://aws.amazon.com/products/databases/)
