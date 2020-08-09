@@ -1,8 +1,8 @@
 # Guidebook
 
-> This is intended to serve strictly as a reference for different technologies that you might use to build your application. 
->
-> By no means is this list complete. Please **use whatever technology you want, even if you don't find it listed below**.
+> This is intended to serve strictly as a reference for different technologies that you **might** use to build your application. 
+
+#### Please _use whatever technology you want, even if you don't find it listed below_.
 
 ### Table of Contents  
 1. [Frontend](#frontend)
@@ -40,7 +40,7 @@
 - localhost **(discouraged)**
 - Amazon Web Services **(recommended)**
 - GitHub Developer Environment
-- GitLab
+- GitLab 
 - DigitalOcean
 - Azure Cloud
 - Google Cloud
