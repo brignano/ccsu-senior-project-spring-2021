@@ -19,7 +19,7 @@
 - [VueJS](https://cli.vuejs.org/guide/creating-a-project.html)
 
 ## Backend
-- Python ([Django](https://docs.djangoproject.com/en/3.0/intro/tutorial01/), [Flask](https://docs.djangoproject.com/en/3.0/intro/tutorial01/))
+- Python ([Django](https://docs.djangoproject.com/en/3.0/intro/tutorial01/), [Flask](https://flask.palletsprojects.com/en/1.1.x/quickstart/))
 - Java ([Spring](https://start.spring.io/))
 - Ruby ([Ruby on Rails](https://guides.rubyonrails.org/getting_started.html))
 - PHP ([Laravel](https://laravel.com/docs/4.2/quick))
