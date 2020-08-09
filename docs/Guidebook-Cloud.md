@@ -10,7 +10,7 @@
 <br/>
 
 ## Frontend
-- [AWS Amplify](https://aws.amazon.com/amplify/console/)
+- [Static Web Hosting - AWS Amplify](https://aws.amazon.com/amplify/console/)
 
 ## Backend
 
