@@ -39,7 +39,7 @@
 > For a cloud guidebook please refer to the [Guidebook-Cloud.md](Guidebook-Cloud.md)
 
 ##### Start thinking about where you host these components
-- localhost **(discouraged)**
+- localhost
 - Amazon Web Services **(recommended)**
 - GitHub Developer Environment
 - GitLab 
