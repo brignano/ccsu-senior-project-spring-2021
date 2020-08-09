@@ -1,6 +1,8 @@
 # Guidebook
 
-> This is intended to serve as a guide for the high level design of your application and its components.
+> This is intended to serve strictly as a reference for different technologies that you might use to build your application. 
+>
+> By no means is this list complete. Please **use whatever technology you want, even if you don't find it listed below**.
 
 ### Table of Contents  
 1. [Frontend](#frontend)
