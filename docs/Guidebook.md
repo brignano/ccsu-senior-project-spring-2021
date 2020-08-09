@@ -27,10 +27,10 @@
 
 
 ## Database
-- MySQL
+- [MySQL](https://dev.mysql.com/doc/mysql-getting-started/en/)
 - NoSQL
-    - MongoDB
-    - Firebase
+    - [MongoDB](https://mongodb.github.io/node-mongodb-native/3.4/quick-start/quick-start/)
+    - [Firebase](https://firebase.google.com/docs/web/setup)
 
 ## Infrastructure
 
