@@ -32,6 +32,7 @@
 - NoSQL
     - [MongoDB](https://mongodb.github.io/node-mongodb-native/3.4/quick-start/quick-start/)
     - [Firebase](https://firebase.google.com/docs/web/setup)
+- [Databases on AWS](https://aws.amazon.com/products/databases/)
 
 ## Infrastructure
 
