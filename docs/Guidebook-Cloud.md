@@ -16,7 +16,7 @@
 - [AWS Lambda](https://aws.amazon.com/lambda/getting-started/)
 
 ## Database
-- [Datases on AWS](https://aws.amazon.com/products/databases/)
+- [Databases on AWS](https://aws.amazon.com/products/databases/)
 
 ## Helpful Links
 - [Build a Serverless Web Application with AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
