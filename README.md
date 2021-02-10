@@ -1,4 +1,4 @@
-# CCSU Senior Project (Fall 2020)
+# CCSU Senior Project (Spring 2021)
 
 ### Table of Contents
 1. [Background Information](#background-information)
