@@ -1,6 +1,6 @@
 # Project Scope
 
-> For an architectural overview please refer to the [High Level Design](https://github.com/brignano/ccsu-senior-project-fall-2020/wiki/High-Level-Design).
+> For an architectural overview please refer to the [High Level Design](https://github.com/brignano/ccsu-senior-project-spring-2021/wiki/High-Level-Design).
 
 ### Table of Contents
 0. [Sprint 0 - Inception Phase](Sprints/0.md)
